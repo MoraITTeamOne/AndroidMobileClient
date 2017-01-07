@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.prasad.myapplication.MenuActivity">
+
+
+    <Button
+        android:text="News Feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/button4" />
+
+    <Button
+        android:text="Send Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button4"
+        android:layout_toEndOf="@+id/button4"
+        android:layout_marginStart="63dp"
+        android:id="@+id/button5" />
+
+    <Button
+        android:text="Travel Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="101dp"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:text="time table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignTop="@+id/button6" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/button7"
+        android:layout_marginBottom="77dp" />
+
+</RelativeLayout>
